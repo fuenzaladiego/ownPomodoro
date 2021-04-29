@@ -4,9 +4,9 @@ export function pomodoroWatch(clock, start, stop, reset){
     
 
     let clockTempo, 
-    seconds = 55,
-    minutes = 24,
-    secondsAux, minutesAux, sesion = 3;
+    seconds = 0,
+    minutes = 0,
+    secondsAux, minutesAux, sesion = 1;
 
     let setTime = () =>{
         seconds++;
